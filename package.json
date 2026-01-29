@@ -1,0 +1,23 @@
+{
+  "name": "itpm-playwright-project",
+  "version": "1.0.0",
+  "description": "3rd year 1st semester ITPM (IT3040) module's assignment 1( individual)- test automation ability with Playwright tool",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandu343/ITPM-Playwright-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sandu343/ITPM-Playwright-project/issues"
+  },
+  "homepage": "https://github.com/sandu343/ITPM-Playwright-project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0"
+  }
+}
