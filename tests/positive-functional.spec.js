@@ -183,7 +183,7 @@ const positiveTests = [
     input: 'eyaa pereedhaa mehee aavee naee. maLa gedharak velaa eekata gihin. kohomahari ee hindhaa eyaata apee panthiyath maga aerunaa',
     expected: 'එයා පෙරේදා මෙහේ ආවේ නෑ. මළ ගෙදරක් වෙලා ඒකට ගිහින්. කොහොමහරි ඒ හින්දා එයාට අපේ පන්තියත් මග ඇරුනා',
     category: 'Daily language usage',
-    grammar: 'Present tense / Past tense / Future tense',
+    grammar: 'Past tense',
     length: 'M'
   },
   {
@@ -192,7 +192,7 @@ const positiveTests = [
     input: 'ammayi mamayi poLee yanavaa',
     expected: 'අම්මයි මමයි පොළේ යනවා',
     category: 'Daily language usage',
-    grammar: 'Present tense / Past tense / Future tense',
+    grammar: 'Present tense',
     length: 'S'
   },
   {
@@ -201,7 +201,7 @@ const positiveTests = [
     input: 'labana sathiyee api ehee yamu',
     expected: 'ලබන සතියේ අපි එහේ යමු',
     category: 'Daily language usage',
-    grammar: 'Present tense / Past tense / Future tense',
+    grammar: 'Future tense',
     length: 'S'
   },
   
@@ -307,7 +307,7 @@ const positiveTests = [
     name: 'Convert long multi-line inputs',
     input: 'oyaalaa enna\nmama yanavaa\nmata velaa\nyanavaa naethnam\nmata inna oona\nunath\ninna vennee\nnaehae\nsamaavenna\nyaaluvee',
     expected: 'ඔයාලා එන්න\nමම යනවා\nමට වෙලා\nයනවා නැත්නම්\nමට ඉන්න ඕන\nඋනත්\nඉන්න වෙන්නේ\nනැහැ\nසමාවෙන්න\nයාලුවේ',
-    category: ' Formatting (spaces / line breaks / paragraph)',
+    category: 'Formatting (spaces / line breaks / paragraph)',
     grammar: 'Simple sentence',
     length: 'M'
   },
